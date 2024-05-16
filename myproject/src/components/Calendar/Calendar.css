@@ -1,0 +1,14 @@
+.Calendar{
+    border: 0;
+    padding: 0.9rem;
+    font-size: 12px;
+    font-family: gillsanmt;
+    border-radius: 0.5rem;
+    height: 310px;
+    box-shadow: 0px 10px 20px 0px #e5e5bf;
+}
+
+.dateString{
+    font-family: gillsanmt;
+    font-size: 13px;
+}

@@ -1,0 +1,129 @@
+.rdt_TableHead {
+  background-color: #3498db;
+  /* Change this to your desired color */
+  color: #430b0b;
+  font-size: 14px;
+  /* Change the text color to contrast with the background */
+}
+
+.rdt_TableHead {
+  border-bottom: 2px solid #b7301e;
+  /* Change this to your desired color */
+}
+
+.filter {
+  width: 180px;
+  margin-bottom: 10px !important;
+  background-color: azure;
+}
+
+.text-end {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.text-end>input {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.modal-employee {
+  max-width: 950px
+}
+
+.modal-view-inventory{
+  max-width: 1250px;
+}
+
+.sale-view-inventory{
+  max-width: 900px;
+}
+
+
+.modal-branch {
+  max-width: 580px
+}
+
+.modal-product {
+  max-width: 790px;
+}
+
+.modal-deletion{
+  max-width: 400px;
+}
+
+/* .employeeDataTable {
+  max-height: 500px;
+  overflow: auto;
+} */
+
+h5 {
+  font-family: montserrat-thin;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  gap: 25px;
+}
+
+.loginCredentialDiv {
+  display: flex;
+}
+
+.loginCredentialDiv>div:last-child {
+  padding-left: 20px;
+}
+
+
+label {
+  margin-left: 12px;
+  font-size: 12px;
+}
+
+.div1>div>input {
+  width: 100%;
+}
+
+.div1>div {
+  padding-right: 20px;
+}
+
+.div3 {
+  border-bottom: 1px solid rgb(221, 219, 219);
+  padding-bottom: 40px;
+}
+
+.employeeForm>b:last-child>h5,
+.div5>b>h5 {
+  margin-top: 20px;
+}
+
+.div4 {
+  border-bottom: 1px solid rgb(221, 219, 219);
+  padding-bottom: 40px;
+}
+
+.employeeForm>div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+  gap: 8px;
+}
+
+.MuiButton-contained {
+  margin-bottom: 10px !important;
+  font-size: 11px !important;
+}
+
+.exclamation, .import{
+  display: flex;
+  gap: 10px;
+}

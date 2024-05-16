@@ -1,0 +1,79 @@
+.card-body{
+    background-color: white;
+    font-size: 14px;
+}
+
+.btn1{
+    border-radius: 10%;
+    background-color: aquamarine;
+    border: none;
+}
+
+.btn2{
+    border-radius: 10%;
+    background-color: aquamarine;
+    border: none;
+    float: right;
+}
+/* .minus{
+    margin-left: 10px;
+} */
+.plus{
+    margin-left: 10px;
+}
+.receipt{
+    text-align: center;
+}
+.small{
+    text-align: center;
+}
+.input{
+    width: 40px;
+    margin-left: -10px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+}
+
+.data-row-sale{
+    display: grid;
+    grid-template-columns: 5fr auto; /* 1fr for employee-id, 'auto' for icons */
+    align-items: center;
+    border: none;
+  }
+
+  .sale-product{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .add-product-sale{
+    margin-top: 30px;
+  }
+
+  .sale-input{
+    height: 1px;
+  }
+
+  .receipt-check{
+    display: flex;
+  }
+
+  .receipt-message{
+    margin-top: -2px;
+    margin-left: 10px;
+    color: rgb(148, 145, 145);
+  }
+
+.total-amount-product{
+  color: green;
+}
+
+.product-name{
+  font-size: 16px;
+}
+
+.sale-buttons{
+  width: 150px;
+  justify-items: flex-end;
+}

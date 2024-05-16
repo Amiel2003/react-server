@@ -1,0 +1,75 @@
+Jayson Calfoforo
+/* CSS for EmployeeDetails component */
+/* Styles for the button */
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the modal title */
+  .modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+  }
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+    font-size: 13px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for table cells */
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styles for alternating rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .btn-edit{
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+  }  
+  .btn-archive{
+    background-color: #f44336;
+    color: white;
+    margin-top: 10px;
+  }
+  .tables-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table {
+    flex: 1;
+    margin: 0 5px; 
+  }
+
+  .edit-employee{
+    height: 30px;
+    font-size: 13px;
+    width: 150px;
+  }
+
+  .data-row {
+    display: grid;
+    grid-template-columns: 1fr auto; /* 1fr for employee-id, 'auto' for icons */
+    align-items: center;
+    border: none;
+  }
+  
+  .edit-buttons ,.icons{
+    cursor: pointer;
+  }
+

@@ -1,0 +1,189 @@
+:root{
+    --background-color: #F4F2DE;
+    --login-image: url(/images/market.png);
+    --title: url(/images/title2.png);
+}
+
+@font-face {
+    font-family: gillsanmt;
+    src: url(/fonts/gillsanmt.TTF);
+}
+
+/* @font-face {
+    font-family: montserrat;
+    src: url(/fonts/montserrat.tff);
+} */
+
+@font-face {
+    font-family: montserrat-thin;
+    src: url(/fonts/montserrat-thin.otf);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(/fonts/coolvetica_rg.otf);
+}
+
+h1,h3,h5{
+    font-family: montserrat-thin;
+    font-weight:bolder;
+  }
+
+body{
+    background-color: var(--background-color);
+}
+
+@media(max-width:1920px){
+    .holder{
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        /* background-color: aqua; */
+    }
+
+    #recaptcha{
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    
+    .inner-section{
+        margin-right: auto;
+        margin-left: auto;
+        border-color: black;
+    }
+    
+    #image-section{
+        content: var(--login-image);
+        width: 450px;
+        height: 550px;
+        margin-top: 100px;
+        margin-right: 90px;
+    }
+    
+    #title-image{
+        content: var(--title);
+        width: 500px;
+        margin-top: 100px;
+    }
+    
+    #login-text{
+        font-family: gillsanmt;
+        font-size: 25px;
+    }
+    
+    #username,#password{
+        width: 380px;
+        height: 52px;
+        font-family:montserrat-thin;
+        padding: 2%;
+        border-color: solid #c9c9ad;
+    }
+    
+    #password,#submit{
+        margin-top: 15px;
+    }
+    
+    #submit{
+        width: 380px;
+        height: 55px;
+        font-family: gillsanmt;
+        letter-spacing: 1.5px;
+        background-color: #952323;
+        color: aliceblue;
+        margin-left: -164px;
+    }
+    
+    #submit:hover{
+        background-color: #5d1616;
+    }
+    
+    #continue-with{
+        font-family: gillsanmt;
+        font-size: 17px;
+        margin-top: -15px;
+        color: #b1b19e;
+        margin-left: -164px;
+    }
+    
+    #credentials{
+        margin-left: 115px;
+    }
+    
+    #google-button{
+        background-color: rgb(223, 217, 217);
+        width: 380px;
+        height: 55px;
+        font-family: gillsanmt;
+        margin-left: -164px;
+    }
+    
+    #google-button:hover{
+        background-color: rgb(205, 199, 199);
+    }
+    
+    #google-icon{
+        margin-top: 6px;
+        width: 30px;
+    }
+    
+    #short-info{
+        margin-top: 45px;
+        font-family: montserrat-thin;
+        font-size: 15px;
+        text-align:left;
+    }
+    
+    #login-message-div{
+        display: flex;
+    }
+    
+    #error-div{
+        width: 260px;
+        border-radius: 0.5em;
+        height: 55px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    
+    #error-message{
+        font-family: montserrat-thin;
+    }
+    
+}
+
+@media(max-width:414px){
+    #image-section{
+        display: none;
+    }
+    #section1{
+        width: 100%;
+    }
+    #title-image{
+        margin-left: 250px;
+        width:650px;
+    }
+    .holder{
+        width: 1100px; 
+        margin-top: 300px;
+    }
+    #login-form,#google,#short-info{
+        text-align: center;
+    }
+    #short-info{
+        margin-top: 150px;
+        font-size: 28px;
+    }
+    #username,#password,#submit,#google-button{
+        width: 600px;
+        height: 120px;
+        font-size: 35px;
+    }
+    #google-icon{
+        width: 70px;
+        margin-top: 20px;
+    }
+    #continue-with{
+        font-size: 27px;
+    }
+}

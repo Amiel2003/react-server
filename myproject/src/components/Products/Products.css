@@ -1,0 +1,27 @@
+.productDataTable {
+    max-height: 900px; /* Set the maximum height as per your requirements */
+    /* overflow: auto; */
+  }
+
+.productForm>div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    gap: 8px;
+}
+
+.div1{
+    display: flex;
+    justify-content:flex-start;
+    padding-bottom: 30px;
+    gap: 1px;
+  }
+
+.div2{
+    border-bottom: 1px solid rgb(221, 219, 219);
+}
+
+  .productDescription{
+    width: 740px;
+  }
+  

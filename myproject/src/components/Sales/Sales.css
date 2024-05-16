@@ -1,0 +1,27 @@
+/* Add this to your CSS */
+@media print {
+    .printable-receipt {
+        display: block !important;
+    }
+}
+
+.sale-modal {
+    width: 1000px;
+}
+
+.main-sale-holder {
+    display: flex;
+    gap: 25px;
+}
+
+.lister {
+    background-color: aqua;
+}
+
+.select {
+    width: 140px;
+    height: 40px !important;
+    margin-bottom: 10px !important;
+    background-color: azure;
+    text-align: center;
+}

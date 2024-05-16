@@ -1,0 +1,55 @@
+.in-stock{
+    background-color: #45bc30;
+    padding: 5.5px;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+.low-stock{
+    background-color: #a328b6;
+    padding: 5.5px;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+.out-of-stock{
+    background-color: #b63232;
+    padding: 5.5px;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+.add-stock{
+    height: 40px;
+}
+
+/* ADD STOCK */
+.form-group{
+    margin-top: 10px;
+}
+.btn-stock{
+    margin-left: 387px;
+}
+
+.no-restock{
+    color: #b5acac;
+    display: flex;
+}
+
+.restock-date{
+    width: 100px;
+    text-align: center;
+}
+
+.date-sorter{
+    background-color: rgb(220, 223, 174) !important;
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 15px;
+}

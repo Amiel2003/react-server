@@ -1,0 +1,17 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+@media screen and (max-width: 1200px){
+    .MainDash{
+        justify-content: flex-start;
+        margin-top: 2rem;
+        overflow-y: scroll;
+    }
+    .TableAndChart{
+        display: block;
+    }
+  }

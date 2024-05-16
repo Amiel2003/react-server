@@ -1,0 +1,57 @@
+.ApexChart{
+    width: 600px;
+}
+
+.chartHeader{
+    display: flex;
+    gap: 10px;
+}
+
+.chartHeader>select{
+    width: 150px;
+    align-self: flex-end;
+    /* position:absolute; */
+    margin-left: 19.5rem;
+}
+
+@media screen and (max-width: 1500px){
+    .ApexChart{
+        width: 400px;
+    }
+    .chartHeader>select{
+        width: 150px;
+        align-self: flex-end;
+        /* position:absolute; */
+        margin-left: 15.5rem;
+    }
+  }
+
+  
+  @media screen and (max-width: 1800px){
+    .ApexChart{
+        width: 550px;
+    }
+    .chartHeader>select{
+        width: 150px;
+        align-self: flex-end;
+        /* position:absolute; */
+        margin-left: 14.5rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+    .ApexChart{
+        width: 600px;
+    }
+  }
+  @media screen and (max-width: 1400px){
+    .ApexChart{
+        width: 400px;
+    }
+    .chartHeader>select{
+        width: 150px;
+        align-self: flex-end;
+        /* position:absolute; */
+        margin-left: 5rem;
+    }
+  }

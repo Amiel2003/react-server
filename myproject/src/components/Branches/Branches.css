@@ -1,0 +1,100 @@
+.rdt_TableHead {
+    background-color: #3498db; /* Change this to your desired color */
+    color: #430b0b;
+    font-size: 14px; /* Change the text color to contrast with the background */
+  }
+
+  .rdt_TableHead {
+    border-bottom: 2px solid #1e7ab7; /* Change this to your desired color */
+  }
+
+  .branchDataTable {
+    max-height: 500px; /* Set the maximum height as per your requirements */
+    overflow: auto;
+  }
+
+  .branchForm>div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    gap: 8px;
+  }
+
+.licenseDiv:last-child{
+  width: 228px;
+}
+
+.branchForm>div{
+  justify-content: center;
+}
+
+.openingDateDiv:last-child{
+  width: 228px;
+}
+
+.branchEmployeeDiv{
+  padding-bottom: 30px;
+  justify-content: flex-start !important;
+  gap: 25px;
+}
+
+.branchEmployeeField,.addAnotherEmployee{
+  display: flex;
+  gap: 10px;
+  padding-top: 9px;
+}
+
+.buttonsBranch{
+  border-top: 1px solid rgb(221, 219, 219);
+}
+
+.branchEmployeeTitleDiv{
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.branch-employee-error{
+  position: relative;
+  margin-left: 100px !important;
+  margin-bottom: -100px !important;
+  bottom: 8px;
+  /* width: 190px !important; */
+  height: 40px !important;
+}
+
+.branch-employee-error>center>b>p{
+  font-size: 13px;
+  margin-top: -7px;
+}
+
+.lastDiv{
+  border-bottom: 1px solid rgb(221, 219, 219);
+  margin-bottom: 15px;
+}
+
+.supervisor-error{
+  margin-left: 120px !important;
+  margin-bottom: -100px !important;
+  bottom: 8px;
+  width: 250px !important;
+  height: 40px !important;
+}
+
+.supervisor-success{
+  margin-left: 120px !important;
+  margin-bottom: -100px !important;
+  bottom: 8px;
+  width: 220px !important;
+  height: 40px !important;
+}
+
+.supervisor-success>center>b>p{
+  font-size: 13px;
+  margin-top: -7px;
+}
+
+.supervisor-error>center>b>p{
+  font-size: 13px;
+  margin-top: -7px;
+}
+

@@ -1,0 +1,13 @@
+.WeatherStats{
+    font-family: montserrat-thin;
+    font-weight: bold;
+}
+
+.WeatherContainer{
+    display: flex;
+}
+
+.WeatherIcon{
+    width: 100px;
+    overflow: hidden;
+}
