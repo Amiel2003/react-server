@@ -1,5 +1,5 @@
 
-async function simplifyData(data) {
+export function simplifyData(data) {
   const simplifiedArray = []
   data.forEach((employee) => {
     const fullName = employee.first_name + " " + employee.last_name
@@ -20,7 +20,7 @@ async function simplifyData(data) {
   return simplifiedArray;
 }
 
-function arrangeArray(array) {
+export function arrangeArray(array) {
   const arrangedArray = []
   array.reverse().map(document => {
     arrangedArray.push(document)
@@ -28,7 +28,7 @@ function arrangeArray(array) {
   return arrangedArray;
 }
 
-function simplifyBranchData(data) {
+export function simplifyBranchData(data) {
   const simplifiedArray = []
   data.collection.forEach((branch) => {
     if (branch.supervisor === null || branch.supervisor === "") {
@@ -65,7 +65,7 @@ function simplifyBranchData(data) {
   return simplifiedArray;
 }
 
-function simplifyInventoryData(data) {
+export function simplifyInventoryData(data) {
   const simplifiedArray = []
   data.forEach((inventory) => {
 
@@ -112,7 +112,7 @@ function simplifyInventoryData(data) {
   return simplifiedArray;
 }
 
-function simplifyInventoryDataAdmin(data) {
+export function simplifyInventoryDataAdmin(data) {
   const simplifiedArray = []
   data.forEach((inventory) => {
 
@@ -146,7 +146,7 @@ function simplifyInventoryDataAdmin(data) {
   return simplifiedArray
 }
 
-function simplifySalesData(data) {
+export function simplifySalesData(data) {
 
   const simplifiedArray = []
   data.forEach((sale) => {
@@ -170,7 +170,7 @@ function simplifySalesData(data) {
   return simplifiedArray
 }
 
-function simplifyAdminSales(branches, sales, rawBranch, inventory) {
+export function simplifyAdminSales(branches, sales, rawBranch, inventory) {
   const simplifiedArray = []
   console.log('inventory sa admin',inventory)
   branches.forEach((branch,index) => {
@@ -205,4 +205,4 @@ function simplifyAdminSales(branches, sales, rawBranch, inventory) {
   return simplifiedArray;
 }
 
-module.exports = { simplifyData, arrangeArray, simplifyBranchData, simplifyInventoryData, simplifyInventoryDataAdmin, simplifySalesData, simplifyAdminSales }
+// module.exports = { arrangeArray, simplifyBranchData, simplifyInventoryData, simplifyInventoryDataAdmin, simplifySalesData, simplifyAdminSales }
