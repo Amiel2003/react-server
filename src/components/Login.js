@@ -51,7 +51,7 @@ function Login({user,setUser}) {
         axios.post(loginURL, {
             username: encryptedUsername,
             password: encryptedPassword,
-            recaptchaResponse: recaptchaValue
+            // recaptchaResponse: recaptchaValue
         })
         .then(async (res) => {
 
@@ -152,10 +152,10 @@ function Login({user,setUser}) {
                             'LOGIN'
                         )}
                     </button>
-                    <ReCAPTCHA id="recaptcha"
+                    {/* <ReCAPTCHA id="recaptcha"
                     sitekey="6Ldm0SsoAAAAAMis7Af4GwgPNm_6LfDLswbo0uKy"
                     onChange={(value) => setRecaptchaValue(value)}
-                    />
+                    /> */}
                 </form>
                 <div id="google">
                     <p id="continue-with">______________________________</p>
